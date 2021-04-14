@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div, span, id and class</title>
+    <!-- class="card"のブロックにstyleを適用できる(css共通化) -->
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      .enhance {
+        color: yellow;
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- id ※classは繰り返しok、idはリピートしない -->
+    <div id="main-header">
+      <h1>My Website</h1>
+      <p>A site about me</p>
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <!-- div#about + Enterでidもショートカットコーディングできる -->
+    <div id="about" class="card">
+      <h3>About</h3>
+      <!-- divでなくspanにすることでインラインでそのままにstyle適用ができる -->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+        magni, iusto natus rerum molestiae,
+        <span class="enhance"
+          >>possimus neque sunt, perferendis obcaecati ipsum repudiandae ut hic
+          id!</span
+        >
+        Porro provident ea sapiente esse necessitatibus.
+      </p>
+    </div>
+
+    <div id="contact">
+      <h3>Contact me</h3>
+      <ul>
+        <li>Address: 50 main st, Boston MA</li>
+        <li>Phone: 555-5555</li>
+        <li>Email:me@cool.com</li>
+      </ul>
+    </div>
+
+    <!-- html semantic tag : &copy; -->
+    <div id="footer">
+      <p>Copyright &copy; 2019</p>
+    </div>
+  </body>
+</html>

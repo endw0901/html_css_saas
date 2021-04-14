@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lists & Tables</title>
+  </head>
+  <body>
+    <!-- Unordered lists -->
+    <!-- style:disc, circle, square... -->
+    <ul style="list-style: disc">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <!-- 連番付きLists -->
+    <!-- li*4で4行一気に作れる -->
+    <!-- type=a, A, Ⅰ(ローマ数字)など -->
+    <ol type="a">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <!-- ネスト -->
+    <ul>
+      <li>Item 1</li>
+      <li>
+        Item 2
+        <ul>
+          <li>Nested Item 1</li>
+          <li>Nested Item 2</li>
+        </ul>
+      </li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <!-- Tables -->
+    <!-- flexbox grid-sytemsがあるので -->
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>jdoe@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Kerry</td>
+          <td>Mon</td>
+          <td>Mkerry@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
