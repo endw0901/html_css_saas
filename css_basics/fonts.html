@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fonts</title>
+    <style>
+      /* 
+      google font
+      https://fonts.google.com/?query=roboto
+      link rel, font-familyの情報も + ボタンから
+      https://fonts.google.com/specimen/Roboto?query=roboto#pairings
+       */
+      body {
+        /* font-family: 'Open Sans', sans-serif; */
+        font-family: Arial, Helvetica, sans-serif;
+        /* default 16px */
+        font-size: 18px;
+        /* more spaces */
+        line-height: 1.6em;
+        /* 絶対単位 ※pxが主要：cm, mm, in(inches), px(pixels), pt(points), pc(picas picas) */
+        /* 相対単位：%, em(element), rem(root element), vw(viewpoint width), vh */
+      }
+
+      /* spanを対象に適用したいとき */
+      #welcome p span {
+        font-weight: bold;
+      }
+
+      #about p span {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="welcome">
+      <h2 class="primary-heading">Welcome</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iusto
+        quam tenetur nemo doloribus
+        <span>atque quisquam, minima nobis</span> enim autem.
+      </p>
+    </div>
+    <div id="about">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor
+        <span
+          >sit amet consectetur adipisicing elit. Repellendus labore
+          necessitatibus,</span
+        >
+        velit accusamus perspiciatis amet voluptatem maiores officiis tenetur
+        dicta.
+      </p>
+    </div>
+  </body>
+</html>

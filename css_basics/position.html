@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Positioning</title>
+    <style>
+      body {
+        height: 4000px;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      .container {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        background: #333;
+        /* z-index: 2; */
+      }
+
+      #box-1 {
+        /* defaut:static tblr(top/bottom/left/right) propertyに影響されない */
+        /* position: static; */
+        /* relative = tblrに影響される */
+        position: relative;
+        top: 50px;
+        left: 50px;
+        /* containerより上に重ねたい */
+        z-index: 1;
+        background: red;
+      }
+      #box-2 {
+        /* Absolute = 親のrelativeにrelative */
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        background: yellow;
+      }
+      #box-3 {
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+        background: green;
+      }
+      #box-4 {
+        /* Fixed = viewportにrelative */
+        position: fixed;
+        background: blue;
+      }
+      #box-5 {
+        /* Sticky = scroll positionに依存 */
+        position: sticky;
+        /* 下にスクロールしても上に張り付く */
+        top: 0;
+        background: orange;
+        /* 他より裏に隠れるようにする */
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ショートカットコマンド：#box-1.box + Enter -->
+    <div id="box-1" class="box"></div>
+    <!-- ショートカットコマンド .container + Enter -->
+    <div class="container">
+      <!-- relative to container -->
+      <div id="box-2" class="box"></div>
+      <div id="box-3" class="box"></div>
+    </div>
+    <div id="box-4" class="box"></div>
+    <div id="box-5" class="box"></div>
+  </body>
+</html>
