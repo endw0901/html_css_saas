@@ -1,5 +1,8 @@
 # html_css_saas
 
+# ショートカットコマンド
+- https://github.com/endw0901/html_css_saas/blob/main/html_basics/shortcut_command.md
+
 ## HTML
 
 - Visual Studio Code Setup, Shortcuts , Live Server & Emmet
