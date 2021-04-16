@@ -30,4 +30,5 @@
 - https://source.unsplash.com/
 
 ### フリーアイコン
-- https://fontawesome.com/
+- https://fontawesome.com/start
+- => ログインしてkitのメニューにスクリプト
