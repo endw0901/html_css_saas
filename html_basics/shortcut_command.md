@@ -13,7 +13,10 @@
 - id: #bbbb + enter
 
 
+// 応用
 - section#home-info + enter => <section id="home-info"></section>
+- a.btn.btn-light + enter => <a href="" class="btn btn-light"></a>
+
 ```
 
 
