@@ -3,7 +3,10 @@
 ```
 // alt + shift + 下矢印・・・・行copy
 
-
+.box*3 + enter => 
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
 
 - ctrl + 矢印：単語移動
 
