@@ -23,6 +23,9 @@ alt + shift + 下矢印・・・・行copy
 - section#home-info + enter => <section id="home-info"></section>
 - a.btn.btn-light + enter => <a href="" class="btn btn-light"></a>
 
+
+// ダミーテキスト
+lorem20 + enter => 20文字のダミーテキスト
 ```
 
 
