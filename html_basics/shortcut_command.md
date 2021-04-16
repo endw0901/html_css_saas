@@ -3,7 +3,7 @@
 ```
 // alt + shift + 下矢印・・・・行copy
 
-```
+
 
 - ctrl + 矢印：単語移動
 
@@ -11,3 +11,9 @@
 
 - クラス： .aaaaa + enter
 - id: #bbbb + enter
+
+
+- section#home-info + enter => <section id="home-info"></section>
+```
+
+
