@@ -8,3 +8,6 @@
 - ctrl + 矢印：単語移動
 
 - div#about + Enter
+
+- クラス： .aaaaa + enter
+- id: #bbbb + enter
