@@ -43,3 +43,15 @@
 ### フォント
 - https://fonts.google.com/
 - https://github.com/endw0901/html_css_saas/blob/main/css_basics/fonts.html
+
+### jQuery CDN
+- https://code.jquery.com/
+- sample => EdgeLedger website: 
+
+### Lightbox
+- https://lokeshdhakar.com/projects/lightbox2/#examples
+※githubからzip download <br>
+※Downloads\lightbox2-dev\lightbox2-dev\dist\css => lightbox.min.cssをcssフォルダに格納 <br>
+
+
+
