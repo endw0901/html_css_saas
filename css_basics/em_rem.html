@@ -1,0 +1,103 @@
+<!-- 
+em=直前の親elementの相対サイズ ※使わない
+rem=root elementの相対サイズ
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Em & Rem Units</title>
+    <style>
+      /* root elementのサイズ変更すると、remも相対サイズであわせて変更される
+      　※pxを正確にしたいときはこの方法
+      ※ブラウザ(chromeの文字サイズ：medium=16pxなので、photoshopなどデザイン側を16px前提とするのがメジャーな方法？)
+      */
+      /* html { */
+      /* h3は10px*2rem=20pxとなる。デフォルトは16px */
+      /* font-size: 10px; */
+
+      /* 16px*0.625に変更 */
+      /* font-size: 62.5%; */
+      /* } */
+
+      /* box-1はemを使用しているので、htmlのroot elementのサイズに影響されない。
+      親の20pxをもととした相対サイズとなる */
+      #box-1 {
+        /* p:1em=XXXpx => h3:1.7em=XXX*1.7px */
+        font-size: 20px;
+      }
+
+      #box-1 p {
+        /* p: 1.5pm*20=30px(F12=>computedで確認できる)。h3は1.7emのまま */
+        font-size: 1.5em;
+        /* padding:1em=30px(pと同じ) ※混同しやすいのでemは使わない */
+        padding: 1em;
+      }
+
+      #box-1 ul {
+        /* 1.2em:24px => nested 1.2em:28.8 => nested 1.2em:34.56px
+        ※nestするほど大きくなってしまう => emは使わない。
+        */
+        font-size: 1.2em;
+      }
+
+      #box-2 h3 {
+        /* 2rem=32px(root element 16px*2) */
+        font-size: 2rem;
+      }
+
+      #box-2 p {
+        /* 25.6px = 16*1.6 */
+        font-size: 1.6rem;
+        /* emだと、16px*1.6em*1.7em=43.52px
+          remだと、16px*1.7rem = 27.2px
+        */
+        line-height: 1.7rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="box-1">
+      <h3>Box One</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa eos
+        fugiat odit facere fuga praesentium eaque, dignissimos impedit ratione
+        adipisci harum asperiores excepturi sequi modi minima, hic sint? Esse,
+        quod.
+      </p>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>
+          3
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>
+              3
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>4</li>
+      </ul>
+    </div>
+    <div id="box-2">
+      <h3>Box Two</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa eos
+        fugiat odit facere fuga praesentium eaque, dignissimos impedit ratione
+        adipisci harum asperiores excepturi sequi modi minima, hic sint? Esse,
+        quod.
+      </p>
+    </div>
+  </body>
+</html>
