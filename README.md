@@ -38,4 +38,7 @@
 - => ログインしてkitのメニューにスクリプト
 
 - https://cdnjs.com/libraries/font-awesome
+※ヘッダにlink tag貼る<br>
 
+### フォント
+- https://fonts.google.com/
