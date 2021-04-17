@@ -42,3 +42,4 @@
 
 ### フォント
 - https://fonts.google.com/
+- https://github.com/endw0901/html_css_saas/blob/main/css_basics/fonts.html
