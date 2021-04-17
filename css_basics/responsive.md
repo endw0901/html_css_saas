@@ -8,6 +8,12 @@
 
 - Vh / Vw : https://github.com/endw0901/html_css_saas/blob/main/css_basics/vh_vw.html
 
+- flex <br>
+※floatの改良版 <br>
+https://github.com/endw0901/html_css_saas/blob/main/css_basics/flex_basics.html <br>
+ <br>
+ <br>
+
 
 ## landscape
 - スマホを横にした表示テスト => F12 user agentでスマホ選択し、縦横傾け変更アイコンをクリック
