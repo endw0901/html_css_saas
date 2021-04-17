@@ -11,3 +11,8 @@
 
 ## landscape
 - スマホを横にした表示テスト => F12 user agentでスマホ選択し、縦横傾け変更アイコンをクリック
+
+## サンプル
+
+- https://github.com/endw0901/html_css_saas/tree/main/hotel_website <br>
+※float(使わない)を使ったサンプル <br>
