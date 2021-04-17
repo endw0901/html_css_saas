@@ -53,6 +53,10 @@
 ※githubからzip download <br>
 ※Downloads\lightbox2-dev\lightbox2-dev\dist\css => lightbox.min.cssをcssフォルダに格納 <br>
 ※js\lightbox.min.js => をjsフォルダに格納 <br>
+- sample => EdgeLedger website: 
 
-
-
+### favicon
+- https://tools.dynamicdrive.com/favicon/
+※画像を選択して作成 => .icoをrootフォルダに設置 <br>
+※link stylesheetを埋め込む <br>
+- sample => EdgeLedger website: 
