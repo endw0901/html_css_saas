@@ -24,6 +24,10 @@
 ### ショートカットコマンド
 - https://github.com/endw0901/html_css_saas/blob/main/html_basics/shortcut_command.md
 
+### vs code extentions
+
+- Live Server ※右クリックメニューでlocalhostにhtml表示できる
+
 ### フリー画像
 
 - https://www.pexels.com/ja-jp/
