@@ -36,3 +36,6 @@
 ### フリーアイコン
 - https://fontawesome.com/start
 - => ログインしてkitのメニューにスクリプト
+
+- https://cdnjs.com/libraries/font-awesome
+
