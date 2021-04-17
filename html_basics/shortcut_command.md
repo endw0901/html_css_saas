@@ -26,6 +26,14 @@ alt + shift + 下矢印・・・・行copy
 
 // ダミーテキスト
 lorem20 + enter => 20文字のダミーテキスト
+
+// ul li
+li{$}*3 + enter =>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+
+
 ```
 
 
