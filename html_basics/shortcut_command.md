@@ -33,7 +33,9 @@ li{$}*3 + enter =>
           <li>2</li>
           <li>3</li>
 
-
+// type
+input:submit + enter => 
+<input type="submit" value="">
 ```
 
 
