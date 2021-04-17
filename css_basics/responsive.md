@@ -14,6 +14,7 @@ https://github.com/endw0901/html_css_saas/blob/main/css_basics/flex_basics.html 
 https://github.com/endw0901/html_css_saas/blob/main/css_basics/flex_align.html <br>
  <br>
 
+- Grid
 
 ## landscape
 - スマホを横にした表示テスト => F12 user agentでスマホ選択し、縦横傾け変更アイコンをクリック
