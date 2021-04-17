@@ -11,7 +11,7 @@
 - flex <br>
 ※floatの改良版 <br>
 https://github.com/endw0901/html_css_saas/blob/main/css_basics/flex_basics.html <br>
- <br>
+https://github.com/endw0901/html_css_saas/blob/main/css_basics/flex_align.html <br>
  <br>
 
 
