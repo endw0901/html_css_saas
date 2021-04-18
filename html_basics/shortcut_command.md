@@ -27,12 +27,17 @@ alt + shift + 下矢印・・・・行copy
 // ダミーテキスト
 lorem20 + enter => 20文字のダミーテキスト
 
-// ul li
+// ul li 連番付き繰り返し
 li{$}*3 + enter =>
           <li>1</li>
           <li>2</li>
           <li>3</li>
 
+li{Item $}*3 + enter => 
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      
 // type
 input:submit + enter => 
 <input type="submit" value="">
