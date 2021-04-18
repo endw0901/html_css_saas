@@ -11,8 +11,8 @@
 - CSS Units - rem, em, vh, vw, etc: https://github.com/endw0901/html_css_saas/blob/main/css_basics/vh_vw.html
 - Flexbox: https://github.com/endw0901/html_css_saas/blob/main/css_basics/responsive.md
 - CSS Grid
-- Animation with Keyframes & Transitions
-- CSS Variables
+- Animation with Keyframes & Transitions: https://github.com/endw0901/html_css_saas/blob/main/css_basics/animation.md
+- CSS Variables: https://github.com/endw0901/html_css_saas/blob/main/css_basics/variables.html
 
 ## Sass
 
