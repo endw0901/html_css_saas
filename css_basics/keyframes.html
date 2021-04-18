@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyframes</title>
+    <style>
+      body {
+        background: #333;
+      }
+      .box {
+        background: white;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        animation-name: animate1;
+        animation-duration: 5s;
+        /* animation-iteration-count: infiniteで無限ループ */
+        animation-iteration-count: 2;
+        /* forwards:変化後の状態から元に戻らない */
+        animation-fill-mode: forwards;
+        /* x秒まってからアニメ開始 */
+        animation-delay: 1s;
+        /* 逆再生アニメ(alternateならiteration-count行き戻りで2、alternate-reverseなら4回分) */
+        animation-direction: alternate;
+        /* ease-in: だんだん早くなる、ease-in-out：だんだん早くなり、ゆっくりになる */
+        animation-timing-function: ease-in-out;
+      }
+
+      /* 上記を1ラインでまとめる */
+      .box2 {
+        background: blue;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        animation: animate1 5s forwards 1s ease-in-out;
+      }
+
+      @keyframes animate1 {
+        from {
+          width: 200px;
+          top: 0;
+        }
+
+        to {
+          width: 600px;
+          background-color: red;
+          top: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box2"></div>
+  </body>
+</html>

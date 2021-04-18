@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition</title>
+    <style>
+      body {
+        background: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .box {
+        background: white;
+        width: 100px;
+        height: 100px;
+        /* マウスオーバー時のカラー変化が緩やかになる */
+        /* transition-property: background;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 1s; */
+
+        /* 1ラインにまとめるとき */
+        transition: all 2s ease-in-out;
+      }
+
+      .box:hover {
+        /* 複数propertyあるときはtransition-property:all */
+        background: red;
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+      }
+
+      /* transitional properties
+        - properties that have an identifiable halfway point
+
+        background-color
+        background-position
+        border-color
+        border-spacing
+        bottom
+        color
+        font-size
+        font-weight
+        height left
+        letter-spacing
+        line-height
+        margin
+        max-height
+        max-width
+        opacity
+        outline-color
+        outline-offset
+        outline-width
+        padding right
+        text-indent
+        text-shadow
+        top
+        vertical-align
+        visibility
+        width
+        word-spacing
+        z-index      
+       */
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
