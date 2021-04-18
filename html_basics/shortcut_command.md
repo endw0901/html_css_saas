@@ -37,7 +37,11 @@ li{Item $}*3 + enter =>
       <li>Item 1</li>
       <li>Item 2</li>
       <li>Item 3</li>
-      
+
+.box.box-$*2 + enter => 
+    <div class="box box-1"></div>
+    <div class="box box-2"></div>
+    
 // type
 input:submit + enter => 
 <input type="submit" value="">
