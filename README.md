@@ -4,7 +4,7 @@
 
 - Visual Studio Code Setup, Shortcuts , Live Server & Emmet
 - HTML5 Semantic Layout
-- Responsive Design With Media Queries: https://github.com/endw0901/html_css_saas/blob/main/css_basics/responsive.md
+- [Responsive Design With Media Queries](https://github.com/endw0901/html_css_saas/blob/main/css_basics/responsive.md)
 
 ## CSS
 
