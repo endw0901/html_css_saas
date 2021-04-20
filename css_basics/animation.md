@@ -9,4 +9,7 @@
 - transform: https://github.com/endw0901/html_css_saas/blob/main/css_basics/transform.html
 
 ## サンプル
-- https://github.com/endw0901/html_css_saas/tree/main/presentation_website
+- https://github.com/endw0901/html_css_saas/tree/main/presentation_website <br>
+※ボタンクリックで画面スクロール <br>
+※画面外からテキストがスクロールイン <br>
+※jQueryで滑らかにスクロールするクリックイベント<br>
