@@ -7,3 +7,6 @@
 ## マウスオーバー時など変化を緩やかにする、propertyの変化を複数とらえる（カラー、場所、サイズ・・)
 - transition: https://github.com/endw0901/html_css_saas/blob/main/css_basics/transition.html
 - transform: https://github.com/endw0901/html_css_saas/blob/main/css_basics/transform.html
+
+## サンプル
+- https://github.com/endw0901/html_css_saas/tree/main/presentation_website
