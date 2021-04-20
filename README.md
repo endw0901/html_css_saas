@@ -1,12 +1,12 @@
 # html_css_saas
 
-## HTML
+## [HTML](https://github.com/endw0901/html_css_saas/tree/main/html_basics)
 
 - Visual Studio Code Setup, Shortcuts , Live Server & Emmet
 - HTML5 Semantic Layout
 - [Responsive Design With Media Queries](https://github.com/endw0901/html_css_saas/blob/main/css_basics/responsive.md)
 
-## CSS
+## [CSS](https://github.com/endw0901/html_css_saas/tree/main/css_basics)
 
 - [CSS Units - rem, em, vh, vw, etc](https://github.com/endw0901/html_css_saas/blob/main/css_basics/vh_vw.html)
 - [Flexbox](https://github.com/endw0901/html_css_saas/blob/main/css_basics/responsive.md)
