@@ -10,7 +10,7 @@
 
 - [CSS Units - rem, em, vh, vw, etc](https://github.com/endw0901/html_css_saas/blob/main/css_basics/vh_vw.html)
 - [Flexbox](https://github.com/endw0901/html_css_saas/blob/main/css_basics/responsive.md)
-- CSS Grid
+- [CSS Grid](https://github.com/endw0901/html_css_saas/tree/main/css_grid)
 - [Animation with Keyframes & Transitions](https://github.com/endw0901/html_css_saas/blob/main/css_basics/animation.md)
 - [CSS Variables](https://github.com/endw0901/html_css_saas/blob/main/css_basics/variables.html)
 
