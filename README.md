@@ -1,5 +1,10 @@
 # html_css_saas
 
+## [Sass](https://github.com/endw0901/html_css_saas/tree/main/sass)
+※Sassを使うべき。変数や関数・ネストなど便利 <br>
+- Sass Pre-compiler
+- Shared Hosting & Netlify
+
 ## [HTML](https://github.com/endw0901/html_css_saas/tree/main/html_basics)
 
 - Visual Studio Code Setup, Shortcuts , Live Server & Emmet
@@ -14,11 +19,6 @@
 - [Animation with Keyframes & Transitions](https://github.com/endw0901/html_css_saas/blob/main/css_basics/animation.md)
 - [CSS Variables](https://github.com/endw0901/html_css_saas/blob/main/css_basics/variables.html)
 - [position relative absolute](https://www.aiship.jp/knowhow/archives/18053)
-
-## [Sass](https://github.com/endw0901/html_css_saas/tree/main/sass)
-
-- Sass Pre-compiler
-- Shared Hosting & Netlify
 
 ## utility
 
