@@ -1,0 +1,104 @@
+// Sass機能一覧
+// - 変数
+// - ネスト
+// - Partials / Imports
+// - Functions / Mixins
+// - Conditionals
+// - Inheritance
+// - Operators / Calculations
+// - Color Functions
+
+// 機能：Partials / Imports
+@import "variables";
+@import "functions";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $light-color;
+  color: $dark-color;
+  font-family: $font-stack;
+  line-height: 1.5;
+}
+
+// 機能：ネスト
+header {
+  background: $dark-color;
+  // 関数 : 背景色を変えると、自動で明るさに応じて文字が黒 / 白切り替わる
+  color: set-text-color($dark-color);
+  padding: 1rem;
+
+  // ネストして記載できる
+  h1 {
+    text-align: center;
+  }
+}
+
+.section {
+  padding: 3rem;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  // &は親の.sectionを指す => &-aで.section-aを指す
+  &-a {
+    background: $primary-color;
+    color: set-text-color($primary-color);
+  }
+
+  &-b {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+}
+
+a {
+  color: #333;
+
+  // hoverもネストで表現できるので便利
+  // &を使えば繰り返し親を記載しなくていい
+  &:hover {
+    color: coral;
+  }
+}
+
+// css設定もまるごと変数化してシェアできる
+// %で変数化、@extendで参照して使う
+%btn-shared {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn {
+  &-light {
+    @extend %btn-shared;
+    background-color: $light-color;
+    color: set-text-color($light-color);
+
+    &:hover {
+      @include transform(rotate(20deg));
+      // カラーを指定せずに、元の色を10%暗くできる
+      background-color: darken($light-color, 10%);
+    }
+  }
+
+  &-dark {
+    @extend %btn-shared;
+    background-color: $dark-color;
+    color: set-text-color($dark-color);
+
+    &:hover {
+      @include transform(rotate(-20deg));
+      // カラーを指定せずに、元の色を10%明るくできる
+      background-color: lighten($dark-color, 10%);
+    }
+  }
+}
