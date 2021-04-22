@@ -21,3 +21,15 @@
 - Inheritance
 - Operators / Calculations
 - Color Functions
+
+## 環境構築
+
+```
+npm init -y
+npm install node-sass
+
+// package.json修正
+npm run sass
+※これで常にウォッチされている状態なので、live serverで表示中にscss修正するとサイトにリアルタイムで反映される
+
+```
