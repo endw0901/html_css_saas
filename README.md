@@ -63,6 +63,8 @@
 ※link stylesheetを埋め込む <br>
 - sample => EdgeLedger website: https://github.com/endw0901/html_css_saas/tree/main/edgeledger_website
 
+## デプロイ
+
 ### Netlify
 - [formドキュメント](https://docs.netlify.com/forms/setup/)
 - siteから連携後は、githubのソース修正で自動でデプロイされる 
