@@ -64,4 +64,4 @@
 
 ### Netlify
 - [formドキュメント](https://docs.netlify.com/forms/setup/)
-
+- siteから連携後は、githubのソース修正で自動でデプロイされる 
