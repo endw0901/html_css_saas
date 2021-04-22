@@ -1,0 +1,10 @@
+// 機能：Partials / Imports
+//    ファイル名にアンダーライン_をつけることで、コンパイルされなくなる
+//    => main.scssでimportして使う(まとめてmain.cssにコンパイル反映される
+
+// 機能：変数
+$primary-color: steelblue;
+$secondary-color: skyblue;
+$light-color: #f4f4f4;
+$dark-color: #333;
+$font-stack: Arial, Helvetica, sans-serif;

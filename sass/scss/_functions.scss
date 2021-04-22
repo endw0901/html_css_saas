@@ -1,0 +1,19 @@
+// Sass機能
+// - Functions / Mixins
+
+// Set Text Color
+// 関数 : 背景色を変えると、自動で明るさに応じて文字が黒 / 白切り替わる
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+// Transform mixin
+@mixin transform($property) {
+  --webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
