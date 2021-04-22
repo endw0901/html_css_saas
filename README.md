@@ -4,6 +4,7 @@
 ※Sassを使うべき。変数や関数・ネストなど便利 <br>
 - Sass Pre-compiler
 - Shared Hosting & Netlify
+- サンプル：[portfolio_website](https://github.com/endw0901/html_css_saas/tree/main/portfolio_website)
 
 ## [HTML](https://github.com/endw0901/html_css_saas/tree/main/html_basics)
 
