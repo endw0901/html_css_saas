@@ -61,3 +61,7 @@
 ※画像を選択して作成 => .icoをrootフォルダに設置 <br>
 ※link stylesheetを埋め込む <br>
 - sample => EdgeLedger website: https://github.com/endw0901/html_css_saas/tree/main/edgeledger_website
+
+### Netlify
+- [formドキュメント](https://docs.netlify.com/forms/setup/)
+
