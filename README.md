@@ -36,6 +36,7 @@
 - https://source.unsplash.com/
 
 ### フリーアイコン
+- [font-awesome min-CDN](https://cdnjs.com/libraries/font-awesome)
 - https://fontawesome.com/start
 - => ログインしてkitのメニューにスクリプト
 
