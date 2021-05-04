@@ -64,6 +64,8 @@
 ※link stylesheetを埋め込む <br>
 - sample => EdgeLedger website: https://github.com/endw0901/html_css_saas/tree/main/edgeledger_website
 
+### モックデータ
+- [Faker](https://qiita.com/daisukeoda/items/56429fce77066a300e6f)
 ## デプロイ
 
 ### Netlify
