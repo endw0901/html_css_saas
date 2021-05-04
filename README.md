@@ -23,7 +23,7 @@
 
 ## utility
 
-- [API_react] (https://github.com/endw0901/react_typescript/blob/main/api.md)
+- [API_react](https://github.com/endw0901/react_typescript/blob/main/api.md)
 
 ### ショートカットコマンド
 - https://github.com/endw0901/html_css_saas/blob/main/html_basics/shortcut_command.md
